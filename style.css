@@ -41,7 +41,7 @@ ul{
 
 /* Hero */
 
-.content{
+.hero-content{
     display: flex;
     align-items: center;
     height:520px;
@@ -82,4 +82,55 @@ ul{
     font-weight: bold; 
     background-color: #3882f6;
     color: #E5e7eb ;
+}
+
+/* information */
+
+.feature-info{
+    margin: 40px 0;
+
+}
+
+#info-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15%;
+    color: #E5e7eb;
+}
+
+.info-box{
+    display: flex;
+}
+
+.review{
+    text-align: center;
+    margin: 0 10px;
+    width: 230px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-img{
+    margin-bottom: 20px;
+}
+
+
+.img-1{
+    width: 200px;
+    /* margin-right: 20px; */
+}
+
+.img-2{
+    width: 450px;
+    /* margin-right: 20px; */
+}
+
+.img-3{
+    width: 200px;
+    /* margin-left: 20px; */
 }
