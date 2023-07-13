@@ -56,9 +56,14 @@ ul{
     justify-content: space-between;
 }
 
-.hero-img{
-    width: 440px;
+.img-holder{
     height: 250px;
+    width: 440px;
+}
+
+.hero-img{
+    height: auto;
+    width: 440px;
 }
 
 .hero-text{
@@ -127,10 +132,12 @@ ul{
 
 .img-1,
 .img-3{
+    height: auto;
     width: 200px;
 }
 
 .img-2{
+    height: auto;
     width: 450px;
 }
 /* Feedback */
