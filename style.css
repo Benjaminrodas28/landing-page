@@ -156,6 +156,58 @@ ul{
 
 .customer{
     text-align: end;
-    margin: 30px 200px 0 0 ;
+    margin: 10px 200px 0 0 ;
     font-weight: bold;
+}
+
+/* sign up */
+
+.signup-contain{
+    display: flex;
+    justify-content: center;
+}
+
+.signup-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    color: whitesmoke;
+    padding:30px  ;
+    margin: 3% 0 ;
+    width: 70%;
+    border-radius: 1rem;
+}
+
+.cta{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    border: solid white 2px;
+    border-radius:10px;
+    background-color: #3882f6;
+    padding: 5px 35px;
+}
+
+.h4-txt  {
+    margin:0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.h2-txt  {
+    margin-top:0;
+}
+
+/* footer */
+
+footer{
+    background-color: #1F2937;
+    padding: 40px;
+    text-align: center;
+}
+
+.copyright{
+    color: white;
+    word-spacing: 3px;
 }
